@@ -1,5 +1,12 @@
 # Dotfiles
 
+To use the files in this repo locally:
+
+1. Make sure you have the folder `~/repos`
+2. Move to the folder `cd ~/repos`
+3. Clone the repo `git clone git@github.com:jdavidp/dotfiles.git`
+4. Create a symbolic link `ln -s ~/repos/dotfiles/.config ~/.config`
+
 ## nvim
 
 Neovim config taken from [josean](https://github.com/josean-dev/dev-environment-files) with some minor tweaks.
