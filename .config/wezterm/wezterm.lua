@@ -13,6 +13,8 @@ config = {
 	-- window_background_opacity = 0.8,
 	-- macos_window_background_blur = 10,
 	font_size = 16,
+	-- Disable font ligatures
+	harfbuzz_features = { "calt=0", "clig=0", "liga=0" },
 
 	-- Set leader key and keymaps for splitting panes
 	leader = { key = "Space", mods = "CTRL" },
@@ -31,8 +33,5 @@ config = {
 		},
 	},
 }
-
--- Disable font ligatures
--- config.harfbuzz_features = { "calt=0", "clig=0", "liga=0" }
 
 return config
