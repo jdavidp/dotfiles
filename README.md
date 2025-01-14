@@ -35,3 +35,14 @@ formatters = {
   },
 },
 ```
+
+## wezterm and starship
+
+See this [video](https://www.youtube.com/watch?v=e34qllePuoc)
+
+- My Wezterm config is simple and I use the default font, which is JetBrains Mono.
+- I also use the default Starship config.
+
+## zsh
+
+- I installed zsh-autosuggestions and zsh-syntax-highlighting via brew. Had to update `.zshrc` to initialize those tools.
