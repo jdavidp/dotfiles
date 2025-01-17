@@ -4,10 +4,11 @@
 # Allow the .config directory itself to be processed
 !.config/
 
-# Allow specific subfolders
+# Allow specific subfolders and their contents
 !.config/nvim/
+!.config/nvim/**
 !.config/starship/
+!.config/starship/**
 !.config/wezterm/
+!.config/wezterm/**
 
-# Ignore everything else in subfolders of .config
-.config/*/*
