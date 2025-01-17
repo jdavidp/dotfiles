@@ -1,3 +1,13 @@
-.config/fish/
-.config/go/
-.config/uv/
+# Ignore everything in .config
+.config/*
+
+# Allow the .config directory itself to be processed
+!.config/
+
+# Allow specific subfolders
+!.config/nvim/
+!.config/starship/
+!.config/wezterm/
+
+# Ignore everything else in subfolders of .config
+.config/*/*
