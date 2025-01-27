@@ -5,7 +5,12 @@ To use the files in this repo locally:
 1. Make sure you have the folder `~/repos`
 2. Move to the folder `cd ~/repos`
 3. Clone the repo `git clone git@github.com:jdavidp/dotfiles.git`
-4. Create a symbolic link `ln -s ~/repos/dotfiles/.config ~/.config`
+4. Create symbolic links
+
+```
+ln -s ~/repos/dotfiles/.config ~/.config
+ln -s ~/repos/dotfiles/.config/aider/config.yml ~/.aider.conf.yml
+```
 
 ## nvim
 
@@ -46,3 +51,8 @@ See this [video](https://www.youtube.com/watch?v=e34qllePuoc)
 ## zsh
 
 - I installed zsh-autosuggestions and zsh-syntax-highlighting via brew. Had to update `.zshrc` to initialize those tools.
+
+## aider
+
+- Global Aider settings should go in `~/.config/aider/config.yml`, which is symlinked to `~/.aider.conf.yml`.
+- Private settings (like API key) should go in an `.env` file inside the project folder. This is so that the file doesn't get checked into Git. It's common for `.env` files to be include in `.gitignore`.

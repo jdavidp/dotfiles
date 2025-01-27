@@ -11,4 +11,5 @@
 !.config/starship/**
 !.config/wezterm/
 !.config/wezterm/**
-
+!.config/aider/
+!.config/aider/**
