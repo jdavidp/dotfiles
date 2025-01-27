@@ -12,7 +12,7 @@ config = {
 	color_scheme = "nord",
 	-- window_background_opacity = 0.8,
 	-- macos_window_background_blur = 10,
-	font_size = 16,
+	font_size = 14,
 	-- Disable font ligatures
 	harfbuzz_features = { "calt=0", "clig=0", "liga=0" },
 
