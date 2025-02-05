@@ -7,7 +7,7 @@
 # If there are any settings here, make sure to create a symlink,
 # since Aider expects the config file to be in the home folder.
 # Otherwise, do not symlink, as `aider` will fail when the config file is empty.
-#   ln -s ~/repos/dotfiles/aider/config.yml ~/.aider.conf.yml
+#   ln -s ~/repos/dotfiles/.config/aider/config.yml ~/.aider.conf.yml
 ##########################################################
 
 ##########
